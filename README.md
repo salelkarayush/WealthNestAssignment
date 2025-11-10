@@ -31,40 +31,6 @@ WealthNest is a **FastAPI-based backend system** that allows users to manage the
 
 ---
 
-## 📁 Project Structure
-
-WealthNestAssignment/
-│
-├── main.py
-├── pyproject.toml
-├── .env
-├── .gitignore
-│
-├── db/
-│ ├── database.py
-│ ├── models.py
-│ └── schemas.py
-│
-├── routes/
-│ ├── base.py
-│ ├── user_routes.py
-│ ├── instrument_routes.py
-│ ├── transaction_routes.py
-│ ├── portfolio_routes.py
-│ └── login_routes.py
-│
-├── core/
-│ ├── auth_utils.py
-│ ├── security.py
-│ ├── price_utils.py
-│ └── config.py
-│
-├── data/
-│ └── prices.json # Contains local market prices
-│
-└── README.md
-
-
 ## ⚙️ Installation & Setup (using uv)
 
 ### 🧩 Clone the Repository
