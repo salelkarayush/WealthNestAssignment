@@ -75,19 +75,19 @@ uv sync
 
 ### Setup Virtual Environment
 ```bash
-DATABASE_URL="postgresql+psycopg2://postgres:<your_password>@localhost:5432/wealthnest"
+DATABASE_URL="postgresql+psycopg2://postgres:<your_password>@localhost:5432/wealthwise"
 
 JWT_SECRET_KEY="your_jwt_secret_key"
 ```
 
 ### Create postgresql Database
 ```bash
-CREATE DATABASE wealthnest;
+CREATE DATABASE wealthwise;
 ```
 
 ### Run the setup script for database setup with sample data
 ```bash
-psql -U postgres -d wealthnest -f setup.sql
+psql -U postgres -d wealthwise -f setup.sql
 ```
 
 ## To run the Application
